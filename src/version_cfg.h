@@ -58,7 +58,6 @@
 #define MANUFACTURER_CODE_TELINK           	0xdb15 // 'devbis'. Change code if you develop custom firmware
 #endif
 
-#define	IMAGE_TYPE							((CHIP_TYPE << 8) | IMAGE_TYPE_TEMP_HUMIDITY)
 #define	FILE_VERSION					  	((APP_RELEASE << 24) | (APP_BUILD << 16) | (STACK_RELEASE << 8) | STACK_BUILD)
 
 /* Pre-compiled link configuration. */
