@@ -46,7 +46,7 @@ extern ota_callBack_t sensorDevice_otaCb;
 //running code firmware information
 ota_preamble_t sensorDevice_otaInfo = {
 	.fileVer 			= FILE_VERSION,
-	.imageType 			= IMAGE_TYPE,
+	.imageType 			= 672,
 	.manufacturerCode 	= MANUFACTURER_CODE_TELINK,
 };
 #endif
